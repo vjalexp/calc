@@ -1,4 +1,4 @@
-// Модульная реклама //
+// РњРѕРґСѓР»СЊРЅР°СЏ СЂРµРєР»Р°РјР° //
 function stepMinus1() {
 myInit = document.getElementById("repeater1").value;
 if(myInit>1) {
@@ -12,7 +12,7 @@ document.getElementById("repeater1").value = +myInit+1;
 	}
 }
 
-// Строчная реклама //
+// РЎС‚СЂРѕС‡РЅР°СЏ СЂРµРєР»Р°РјР° //
 function stepMinus2() {
 myInit = document.getElementById("repeater2").value;
 if(myInit>1) {
@@ -26,7 +26,7 @@ document.getElementById("repeater2").value = +myInit+1;
 	}
 }
 
-// Частные объявления //
+// Р§Р°СЃС‚РЅС‹Рµ РѕР±СЉСЏРІР»РµРЅРёСЏ //
 function countit(what){
 formcontent=what.form.charcount.value
 what.form.displaycount.value=formcontent.length
