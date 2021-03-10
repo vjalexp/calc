@@ -1,235 +1,239 @@
 <?php
+header('Content-Type: text/html; charset=utf-8');
 error_reporting(1);
 //print_r($_REQUEST);
 ?>
 <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script type='text/javascript' src='calc.js' ></script> 
 <link rel='stylesheet' href='style.css' />
+</head>
 <body>
-<h2>Калькулятор</h2>
+<h2>РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ "РђСЃС‚РѕРє-РџСЂРµСЃСЃ"</h2>
 <div id='module_box'>
 <form action='' method='POST'>
 <hr>
-<h4>Модульная реклама</h4>
+<h4>РњРѕРґСѓР»СЊРЅР°СЏ СЂРµРєР»Р°РјР°</h4>
 <div id='module_result'>
 <?
 if(isset($_REQUEST['module_submitter'])) {
 
 $price_per_cm = 176;
-echo "1 см<sup>2</sup> модульной рекламы-176 руб";
+echo "1 СЃРј<sup>2</sup> РјРѕРґСѓР»СЊРЅРѕР№ СЂРµРєР»Р°РјС‹-176 СЂСѓР±";
 
-echo "<br>Цена рекламной площади: ";
+echo "<br>Р¦РµРЅР° СЂРµРєР»Р°РјРЅРѕР№ РїР»РѕС‰Р°РґРё: ";
 switch ($_REQUEST['square']) {
 	case '8':
 		$s = 8;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '16':
 		$s = 16;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '24':
 		$s = 24;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '32':
 		$s = 32;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '48':
 		$s = 48;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '64':
 		$s = 64;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '74':
 		$s = 74;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '80':
 		$s = 80;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '96':
 		$l = 96;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '112':
 		$s = 112;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '120':
 		$s = 120;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '128':
 		$s = 128;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '144':
 		$s = 144;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '160':
 		$s = 160;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '192':
 		$s = 192;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '240':
 		$s = 240;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '256':
 		$s = 256;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '384':
 		$s = 384;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '432':
 		$s = 432;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 	case '816':
 		$s = 816;
-		echo $s." см<sup>2</sup> ";
-		echo $price_per_cm*$s." руб";
+		echo $s." СЃРј<sup>2</sup> ";
+		echo $price_per_cm*$s." СЂСѓР±";
 		$pre_price = $price_per_cm*$s;
 	break;
 }
 
-echo "<br>Наценка за рубрику: ";
+echo "<br>РќР°С†РµРЅРєР° Р·Р° СЂСѓР±СЂРёРєСѓ: ";
 switch ($_REQUEST['line']) {
 	case 'otherLines':
-		$l = "нет";
+		$l = "РЅРµС‚";
 		echo $l;
 	break;
 	case 'firstLine':
 		$l = 80;
-		echo "Первая полоса ".$l."% ";
+		echo "РџРµСЂРІР°СЏ РїРѕР»РѕСЃР° ".$l."% ";
 		$over_price = $pre_price*($l/100);
-		echo $over_price." руб";
+		echo $over_price." СЂСѓР±";
 	break;
 	case 'nearbyTV':
 		$l = 60;
-		echo "Рядом с ТВ ".$l."% ";
+		echo "Р СЏРґРѕРј СЃ РўР’ ".$l."% ";
 		$over_price = $pre_price*($l/100);
-		echo $over_price." руб";
+		echo $over_price." СЂСѓР±";
 	break;
 	case 'lastLine':
 		$l = 30;
-		echo "Последняя полоса ".$l."% ";
+		echo "РџРѕСЃР»РµРґРЅСЏСЏ РїРѕР»РѕСЃР° ".$l."% ";
 		$over_price = $pre_price*($l/100);
-		echo $over_price." руб";
+		echo $over_price." СЂСѓР±";
 	break;
 	case 'nearbyCross':
 		$l = 20;
-		echo "Рядом с кроссвордом ".$l."% ";
+		echo "Р СЏРґРѕРј СЃ РєСЂРѕСЃСЃРІРѕСЂРґРѕРј ".$l."% ";
 		$over_price = $pre_price*($l/100);
-		echo $over_price." руб";
+		echo $over_price." СЂСѓР±";
 	break;
 	case 'specialPlace':
 		$l = 30;
-		echo "Спецместо ".$l."% ";
+		echo "РЎРїРµС†РјРµСЃС‚Рѕ ".$l."% ";
 		$over_price = $pre_price*($l/100);
-		echo $over_price." руб";
+		echo $over_price." СЂСѓР±";
 	break;
 }
 
-echo "<br>Модуль повторится ".$_REQUEST['repeater']." раз ";
+echo "<br>РњРѕРґСѓР»СЊ РїРѕРІС‚РѕСЂРёС‚СЃСЏ ".$_REQUEST['repeater']." СЂР°Р· ";
 
 $final_module_price = ($pre_price+$over_price)*$_REQUEST['repeater'];
-echo "<br><b>ИТОГО: ".$final_module_price." руб</b>";
+echo "<br><b>РРўРћР“Рћ: ".$final_module_price." СЂСѓР±</b>";
 }
 ?>
 </div>
 <p>
-Рубрика
+Р СѓР±СЂРёРєР°
 <select name='line'>
 <option selected></option>
-<option value='otherLines'>Остальные</option>
-<option value='firstLine'>Первая полоса</option>
-<option value='nearbyTV'>Рядом с ТВ</option>
-<option value='lastLine'>Последняя полоса</option>
-<option value='nearbyCross'>Рядом с кроссвордом</option>
-<option value='specialPlace'>Спецместо</option>
+<option value='otherLines'>РћСЃС‚Р°Р»СЊРЅС‹Рµ</option>
+<option value='firstLine'>РџРµСЂРІР°СЏ РїРѕР»РѕСЃР°</option>
+<option value='nearbyTV'>Р СЏРґРѕРј СЃ РўР’</option>
+<option value='lastLine'>РџРѕСЃР»РµРґРЅСЏСЏ РїРѕР»РѕСЃР°</option>
+<option value='nearbyCross'>Р СЏРґРѕРј СЃ РєСЂРѕСЃСЃРІРѕСЂРґРѕРј</option>
+<option value='specialPlace'>РЎРїРµС†РјРµСЃС‚Рѕ</option>
 </select>
 </p>
-<p>Площадь 
+<p>РџР»РѕС‰Р°РґСЊ 
 <select name='square'>
-<option value='8'>8 кв.см.</option>
-<option value='16'>16 кв.см.</option>
-<option value='24'>24 кв.см.</option>
-<option value='32'>32 кв.см.</option>
-<option value='48'>48 кв.см.</option>
-<option value='64'>64 кв.см.</option>
-<option value='74'>74 кв.см.</option>
-<option value='80'>80 кв.см.</option>
-<option value='96'>96 кв.см.</option>
-<option value='112'>112 кв.см.</option>
-<option value='120'>120 кв.см.</option>
-<option value='128'>128 кв.см.</option>
-<option value='144'>144 кв.см.</option>
-<option value='160'>160 кв.см.</option>
-<option value='192'>192 кв.см.</option>
-<option value='240'>240 кв.см.</option>
-<option value='256'>256 кв.см.</option>
-<option value='384'>384 кв.см.</option>
-<option value='432'>432 кв.см.</option>
-<option value='816'>816 кв.см.</option>
+<option value='8'>8 РєРІ.СЃРј.</option>
+<option value='16'>16 РєРІ.СЃРј.</option>
+<option value='24'>24 РєРІ.СЃРј.</option>
+<option value='32'>32 РєРІ.СЃРј.</option>
+<option value='48'>48 РєРІ.СЃРј.</option>
+<option value='64'>64 РєРІ.СЃРј.</option>
+<option value='74'>74 РєРІ.СЃРј.</option>
+<option value='80'>80 РєРІ.СЃРј.</option>
+<option value='96'>96 РєРІ.СЃРј.</option>
+<option value='112'>112 РєРІ.СЃРј.</option>
+<option value='120'>120 РєРІ.СЃРј.</option>
+<option value='128'>128 РєРІ.СЃРј.</option>
+<option value='144'>144 РєРІ.СЃРј.</option>
+<option value='160'>160 РєРІ.СЃРј.</option>
+<option value='192'>192 РєРІ.СЃРј.</option>
+<option value='240'>240 РєРІ.СЃРј.</option>
+<option value='256'>256 РєРІ.СЃРј.</option>
+<option value='384'>384 РєРІ.СЃРј.</option>
+<option value='432'>432 РєРІ.СЃРј.</option>
+<option value='816'>816 РєРІ.СЃРј.</option>
 </select>
 </p>
 <p>
-Повторов 
+РџРѕРІС‚РѕСЂРѕРІ 
 <input type='button' value='&lt;' onClick='stepMinus1()' />
 <input type='text' id='repeater1' name='repeater' value='0' size='1' />
 <input type='button' value='&gt;' onClick='stepPlus1()' />
 </p>
-<input type='submit' name='module_submitter' value='Рассчитать' />
+<input type='submit' name='module_submitter' value='Р Р°СЃСЃС‡РёС‚Р°С‚СЊ' />
 <br>
 <hr>
 </form>
@@ -238,70 +242,70 @@ echo "<br><b>ИТОГО: ".$final_module_price." руб</b>";
 <!-- ********************************************* -->
 <div id='string_box'>
 <form action='' method='POST'>
-<h4>Строчная реклама</h4>
+<h4>РЎС‚СЂРѕС‡РЅР°СЏ СЂРµРєР»Р°РјР°</h4>
 <div id='string_result'>
 <?php
 if(isset($_REQUEST['string_submitter'])) {
 
-echo "Цена за строку в рубрике: ";
+echo "Р¦РµРЅР° Р·Р° СЃС‚СЂРѕРєСѓ РІ СЂСѓР±СЂРёРєРµ: ";
 switch ($_REQUEST['area']) {
 	case 'med':
-		echo "Медицина ";
+		echo "РњРµРґРёС†РёРЅР° ";
 		$a = 1600;
-		echo $a." руб";
+		echo $a." СЂСѓР±";
 	break;
 	case 'realty':
-		echo "Недвижимость ";
+		echo "РќРµРґРІРёР¶РёРјРѕСЃС‚СЊ ";
 		$a = 1350;
-		echo $a." руб";
+		echo $a." СЂСѓР±";
 	break;
 	case 'educ':
-		echo "Обучение ";
+		echo "РћР±СѓС‡РµРЅРёРµ ";
 		$a = 1600;
-		echo $a." руб";
+		echo $a." СЂСѓР±";
 	break;
 	case 'bills':
-		echo "Покупка-продажа ц.бумаг ";
+		echo "РџРѕРєСѓРїРєР°-РїСЂРѕРґР°Р¶Р° С†.Р±СѓРјР°Рі ";
 		$a = 1600;
-		echo $a." руб";
+		echo $a." СЂСѓР±";
 	break;
 	case 'tour':
-		echo "Туризм ";
+		echo "РўСѓСЂРёР·Рј ";
 		$a = 1600;
-		echo $a." руб";
+		echo $a." СЂСѓР±";
 	break;
 	case 'other':
-		echo "Остальные ";
+		echo "РћСЃС‚Р°Р»СЊРЅС‹Рµ ";
 		$a = 1100;
-		echo $a." руб";
+		echo $a." СЂСѓР±";
 	break;
 }
 
-echo "<br>Количество строк: ".$_REQUEST['repeater2']." ";
+echo "<br>РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє: ".$_REQUEST['repeater2']." ";
 
 $final_string_price = $a*$_REQUEST['repeater2'];
-echo "<br><b>ИТОГО: ".$final_string_price." руб</b>";
+echo "<br><b>РРўРћР“Рћ: ".$final_string_price." СЂСѓР±</b>";
 }
 ?>
 </div>
-<p>Рубрика 
+<p>Р СѓР±СЂРёРєР° 
 <select name='area'>
 <option selected></option>
-<option value='med'>Медицина</option>
-<option value='realty'>Недвижимость</option>
-<option value='educ'>Обучение</option>
-<option value='bills'>Покупка-продажа ц.бумаг</option>
-<option value='tour'>Туризм</option>
-<option value='other'>Остальные</option>
+<option value='med'>РњРµРґРёС†РёРЅР°</option>
+<option value='realty'>РќРµРґРІРёР¶РёРјРѕСЃС‚СЊ</option>
+<option value='educ'>РћР±СѓС‡РµРЅРёРµ</option>
+<option value='bills'>РџРѕРєСѓРїРєР°-РїСЂРѕРґР°Р¶Р° С†.Р±СѓРјР°Рі</option>
+<option value='tour'>РўСѓСЂРёР·Рј</option>
+<option value='other'>РћСЃС‚Р°Р»СЊРЅС‹Рµ</option>
 </select>
 </p>
 <p>
-Количество строк 
+РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє 
 <input type='button' value='&lt;' onClick='stepMinus2()' />
 <input type='text' id='repeater2' name='repeater2' value='0' size='1' />
 <input type='button' value='&gt;' onClick='stepPlus2()' />
 </p>
-<input type='submit' name='string_submitter' value='Рассчитать' />
+<input type='submit' name='string_submitter' value='Р Р°СЃСЃС‡РёС‚Р°С‚СЊ' />
 <br>
 <hr>
 </form>
@@ -311,7 +315,7 @@ echo "<br><b>ИТОГО: ".$final_string_price." руб</b>";
 
 <div id='private_box'>
 <form action='' method="POST">
-<h4>Частные объявления</h4>
+<h4>Р§Р°СЃС‚РЅС‹Рµ РѕР±СЉСЏРІР»РµРЅРёСЏ</h4>
 <p>
 <textarea rows='7' cols='49' name="charcount" wrap="virtual"></textarea>
 <div id='private_result'>
@@ -319,57 +323,57 @@ echo "<br><b>ИТОГО: ".$final_string_price." руб</b>";
 
 if(isset($_REQUEST['private_submitter'])) {
 
-echo "Ваше объявление: '".$_REQUEST['charcount']."'. ";
-echo "<br>Количество знаков: ".$_REQUEST['displaycount'].". ";
-echo "<br>Стоимость одного знака - 11р.50к.";
+echo "Р’Р°С€Рµ РѕР±СЉСЏРІР»РµРЅРёРµ: '".$_REQUEST['charcount']."'. ";
+echo "<br>РљРѕР»РёС‡РµСЃС‚РІРѕ Р·РЅР°РєРѕРІ: ".$_REQUEST['displaycount'].". ";
+echo "<br>РЎС‚РѕРёРјРѕСЃС‚СЊ РѕРґРЅРѕРіРѕ Р·РЅР°РєР° - 11СЂ.50Рє.";
 
 $private_price = 11.5*$_REQUEST['displaycount'];
-echo "<br>Цена объявления без надбавок: ".$private_price." руб";
+echo "<br>Р¦РµРЅР° РѕР±СЉСЏРІР»РµРЅРёСЏ Р±РµР· РЅР°РґР±Р°РІРѕРє: ".$private_price." СЂСѓР±";
 
 if($_REQUEST['fats1']==TRUE) {
-	echo "<br>Надбавка за: Жирный 30% ";
+	echo "<br>РќР°РґР±Р°РІРєР° Р·Р°: Р–РёСЂРЅС‹Р№ 30% ";
 	$p = 30;
 	$over_price_bold = $private_price*($p/100);
-	echo $over_price_bold." рублей";
+	echo $over_price_bold." СЂСѓР±Р»РµР№";
 	}
-else { $over_price_bold = 0 ." рублей"; }
+else { $over_price_bold = 0 ." СЂСѓР±Р»РµР№"; }
 if($_REQUEST['fats2']==TRUE) {
-	echo "<br>Надбавка за: Рамка 30% ";
+	echo "<br>РќР°РґР±Р°РІРєР° Р·Р°: Р Р°РјРєР° 30% ";
 	$p = 30;
 	$over_price_frame = $private_price*($p/100);
-	echo $over_price_frame." рублей";
+	echo $over_price_frame." СЂСѓР±Р»РµР№";
 	}
-else { $over_price_frame = 0 ." рублей"; }
+else { $over_price_frame = 0 ." СЂСѓР±Р»РµР№"; }
 if($_REQUEST['fats3']==TRUE) {
-	echo "<br>Надбавка за: Заглавные буквы 30% ";
+	echo "<br>РќР°РґР±Р°РІРєР° Р·Р°: Р—Р°РіР»Р°РІРЅС‹Рµ Р±СѓРєРІС‹ 30% ";
 	$p = 30;
 	$over_price_capital = $private_price*($p/100);
-	echo $over_price_capital." рублей";
+	echo $over_price_capital." СЂСѓР±Р»РµР№";
 	}
-else { $over_price_capital = 0 ." рублей"; }
+else { $over_price_capital = 0 ." СЂСѓР±Р»РµР№"; }
 if($_REQUEST['fats4']==TRUE) {
-	echo "<br>Надбавка за: Спецместо 30% ";
+	echo "<br>РќР°РґР±Р°РІРєР° Р·Р°: РЎРїРµС†РјРµСЃС‚Рѕ 30% ";
 	$p = 30;
 	$over_price_vip = $private_price*($p/100);
-	echo $over_price_vip." рублей";
+	echo $over_price_vip." СЂСѓР±Р»РµР№";
 	}
-else { $over_price_vip = 0 ." рублей"; }
+else { $over_price_vip = 0 ." СЂСѓР±Р»РµР№"; }
 
 $final_private_price = $private_price + $over_price_bold + $over_price_frame + $over_price_capital + $over_price_vip;
-echo "<br><b>ИТОГО: ".$final_private_price." руб</b>";
+echo "<br><b>РРўРћР“Рћ: ".$final_private_price." СЂСѓР±</b>";
 }
 ?>
 </div>
-<input type="button" value="Посчитать кол-во знаков"
+<input type="button" value="РџРѕСЃС‡РёС‚Р°С‚СЊ РєРѕР»-РІРѕ Р·РЅР°РєРѕРІ"
 onClick="countit(this)">
 <input type="text" name="displaycount" id="displaycount" size="5">
 <br>
-<input type='checkbox' name='fats1' value='bold' /> жирный (+30%) <br>
-<input type='checkbox' name='fats2' value='frame' /> рамка (+30%) <br>
-<input type='checkbox' name='fats3' value='capital' /> заглавный (+30%) <br>
-<input type='checkbox' name='fats4' value='vip' /> спецместо (+30%) <br>
+<input type='checkbox' name='fats1' value='bold' /> Р¶РёСЂРЅС‹Р№ (+30%) <br>
+<input type='checkbox' name='fats2' value='frame' /> СЂР°РјРєР° (+30%) <br>
+<input type='checkbox' name='fats3' value='capital' /> Р·Р°РіР»Р°РІРЅС‹Р№ (+30%) <br>
+<input type='checkbox' name='fats4' value='vip' /> СЃРїРµС†РјРµСЃС‚Рѕ (+30%) <br>
 </p>
-<input type='submit' name='private_submitter' value='Рассчитать' />
+<input type='submit' name='private_submitter' value='Р Р°СЃСЃС‡РёС‚Р°С‚СЊ' />
 <br>
 </form>
 </div>
